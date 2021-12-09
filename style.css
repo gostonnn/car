@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 25%;
+    right: 30%;
+    width: 40%;
+
+}
+li{
+    list-style: none;
+    padding: 5px 10px;
+    text-align: start;
+    width: 100%;
+    border: 2px solid #3064d8;
+    margin: 10px;
+    border-radius: 5px;
+}
